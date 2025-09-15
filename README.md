@@ -17,5 +17,16 @@ Exploratory Data Analysis or EDA is an approach to analyze data data in order to
    1. **Pearson correlation**
    2. **Correlation Heatmaps**
    3. **Predicting Price Using Linear Regression**
+
+## Python Implementation of Exploratotry Data Analysis(EDA)
+### Libray Used:
+- Pandas
+- Numpy
+- Matplotlib
+- Seabon
+- Scikit Learn
+- Scipy
+
+### Data Source: Kaggle (Automobile)
   
-  ## Data Visualization  
+## Data Visualization  
