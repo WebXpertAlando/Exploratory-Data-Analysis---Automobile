@@ -1,13 +1,11 @@
 # Exploratory-Data-Analysis---Automobile
-
 ## Introduction
 Exploratory Data Analysis or EDA is an approach to analyze data data in order to:
 
 - Summerize main characteristics of data.
 - Gain better understanding of the dataset.
 - Uncover relationships between variables and extract important variables for the problem we are trying to solve.
-
-  ### Question:
+### Question:
   What are the characteristics that have the most impact on the car price?
 
  We will learn:
@@ -20,4 +18,4 @@ Exploratory Data Analysis or EDA is an approach to analyze data data in order to
    2. **Correlation Heatmaps**
    3. **Predicting Price Using Linear Regression**
   
-## Data Visualization  
+  ## Data Visualization  
