@@ -10,7 +10,7 @@ Exploratory Data Analysis or EDA is an approach to analyze data data in order to
 
  We will learn:
  - Descriptive statistics which describes basic features of dataset and obtain a short summery about the sample and measures of the data.
- - Perform Data Preprocessing e.g. Data Cleaning by checking Missing Values, Duplicates, Outliers.
+ - Perform Data Preprocessing e.g. Data Cleaning by checking Missing Values, Duplicates, Outliers, Encode Categorical Variables.
  - Perform  Data Visualization on th dataset.
  - Basic grouping of data using GroupBy and how this can help to transform the dataset.
  - The correlation between different variables
@@ -40,6 +40,7 @@ df
 <img width="1000" height="398" alt="Screenshot at 2025-09-18 14-09-44" src="https://github.com/user-attachments/assets/8f71b691-ec2e-4a01-b74e-dcb9a7855081" />
 
 # Data Preprocessing
+It’s the cleaning and transforming of raw data into a format that can be used effectively by machine learning models or for analysis.
 ### Data Cleaning
 ##### Check for Missing Values
 
