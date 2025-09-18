@@ -10,6 +10,7 @@ Exploratory Data Analysis or EDA is an approach to analyze data data in order to
 
  We will learn:
  - Descriptive statistics which describes basic features of dataset and obtain a short summery about the sample and measures of the data.
+ - Perform Data Cleaning using various methods and functions from python.
  - Perform Exploratory Data Analysis (EDA) on the dataset.
  - Basic grouping of data using GroupBy and how this can help to transform the dataset.
  - The correlation between different variables
@@ -44,6 +45,7 @@ df.describe(include = "all")
 ```
 <img width="999" height="362" alt="Screenshot at 2025-09-18 14-17-00" src="https://github.com/user-attachments/assets/1578e80d-5fc2-49cd-926d-cf58ac4a5544" />
 
+# Data Cleaning
 
 
 
