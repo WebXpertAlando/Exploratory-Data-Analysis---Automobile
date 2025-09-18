@@ -5,7 +5,7 @@ Exploratory Data Analysis or EDA is an approach to analyze data data in order to
 - Summerize main characteristics of data.
 - Gain better understanding of the dataset.
 - Uncover relationships between variables and extract important variables for the problem we are trying to solve.
-### Objective:
+### Objectives:
   What are the characteristics that have the most impact on the car price?
 
  We will learn:
@@ -19,15 +19,26 @@ Exploratory Data Analysis or EDA is an approach to analyze data data in order to
    3. **Predicting Price Using Linear Regression**
   - Predict Price using the famous model Linear Regression from scikit learn.
 
-## Python Implementation of Exploratotry Data Analysis(EDA)
+# Python Implementation of Exploratotry Data Analysis(EDA)
 ### Libray Used:
 - Pandas
 - Numpy
 - Matplotlib
-- Seabon
+- Seaborn
 - Scikit Learn
 - Scipy
 
 ### Data Source: Kaggle (Automobile)
+
+```Python
+# Load dataset
+df = pd.read_csv("automobileEDA.csv")
+df
+```
+
+
+# Perform Exploratory Data Analysis
+
+
   
 ## Data Visualization  
