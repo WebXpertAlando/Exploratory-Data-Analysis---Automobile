@@ -11,7 +11,7 @@ Exploratory Data Analysis or EDA is an approach to analyze data data in order to
  We will learn:
  - Descriptive statistics which describes basic features of dataset and obtain a short summery about the sample and measures of the data.
  - Perform Data Preprocessing e.g. Data Cleaning by checking Missing Values, Duplicates, Outliers.
- - Perform Exploratory Data Analysis (EDA) on the dataset.
+ - Perform  Data Visualization on th dataset.
  - Basic grouping of data using GroupBy and how this can help to transform the dataset.
  - The correlation between different variables
  - Advanced correlation, where we can introduce various correlation statistics method, namely:
@@ -39,6 +39,13 @@ df
 ```
 <img width="1000" height="398" alt="Screenshot at 2025-09-18 14-09-44" src="https://github.com/user-attachments/assets/8f71b691-ec2e-4a01-b74e-dcb9a7855081" />
 
+# Data Preprocessing
+### Data Cleaning
+##### Check for Missing Values
+
+
+
+
 # Descriptive Statistics and Short Summary of the data. 
 ```Python
 df.describe(include = "all")
@@ -57,21 +64,14 @@ drive_wheel_col_counts
 
 <img width="989" height="80" alt="Screenshot at 2025-09-18 14-41-12" src="https://github.com/user-attachments/assets/82e98aad-7712-4197-9444-7a9d7dca9578" />
 
-As we can wee there are 118 cars with the front wheel-drive category, 75 cars in the rear wheel-drive category and finally eight cars in the four wheeel-drive category.
+As we can see there are 118 cars with the front wheel-drive category, 75 cars in the rear wheel-drive category and finally 8 cars in the four wheeel-drive category. We can perform as many as summary as we want provided that we already know our categorical columns with discrete values. 
 
-
-
-
-# Data Preprocessing
-### Data Cleaning
-##### Check for Missing Values
-
-
-
-
-
-# Perform Exploratory Data Analysis
-
+```Python
+# Count of Categorical Column engine-type
+engine_type_col_counts = df['engine-type'].value_counts()
+engine_type_col_counts 
+```
+<img width="996" height="127" alt="Screenshot at 2025-09-18 15-02-36" src="https://github.com/user-attachments/assets/3b402c39-bd81-4e76-b0ad-27561ee2b18c" />
 
 
   
