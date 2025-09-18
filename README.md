@@ -37,8 +37,10 @@ df
 ```
 
 
+
 # Perform Exploratory Data Analysis
 
+<img width="1000" height="398" alt="Screenshot at 2025-09-18 14-09-44" src="https://github.com/user-attachments/assets/8f71b691-ec2e-4a01-b74e-dcb9a7855081" />
 
   
 ## Data Visualization  
