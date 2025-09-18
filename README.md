@@ -39,11 +39,17 @@ df
 ```
 <img width="1000" height="398" alt="Screenshot at 2025-09-18 14-09-44" src="https://github.com/user-attachments/assets/8f71b691-ec2e-4a01-b74e-dcb9a7855081" />
 
-# Descriptive Statistics
+# Descriptive Statistics and Short Summary of the data. 
 ```Python
 df.describe(include = "all")
 ```
 <img width="999" height="362" alt="Screenshot at 2025-09-18 14-17-00" src="https://github.com/user-attachments/assets/1578e80d-5fc2-49cd-926d-cf58ac4a5544" />
+
+There are variables that can be divided up into different categories or groupd and have discrete values e.g in our dataset, we have drive system as a categorical value which consists of categories forward wheel-drivel, rear wheel-drive and four wheel-drive.
+
+One way of summerizing the categorical data is by using the function call **value_counts()**
+
+
 
 # Data Cleaning
 
